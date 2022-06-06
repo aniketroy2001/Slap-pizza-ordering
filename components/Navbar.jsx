@@ -21,12 +21,11 @@ const Navbar = () => {
           <Link href="/" passHref>
             <li className={styles.listItem}>Homepage</li>
           </Link>
-          <li className={styles.listItem}>About Us</li>
-          <li className={styles.listItem}>Menu</li>
+          <Link href="#Aboutus" passHref><a className={styles.listItem}>About Us</a></Link>
+          <Link href="#PizzaList" passHref><a className={styles.listItem}>Menu</a></Link>
           <Image src="/img/logo.png" alt="" width="160px" height="69px" />
-          <li className={styles.listItem}>Supply Chain</li>
-          <li className={styles.listItem}>Reviews</li>
-          <li className={styles.listItem}>Contact</li>
+          <Link href="#SupplyChain" passHref><a className={styles.listItem}>Supply Chain</a></Link>
+          <Link href="#Footer" passHref><a className={styles.listItem}>Contact Us</a></Link>
         </ul>
       </div>
       <Link href="/cart" passHref>
