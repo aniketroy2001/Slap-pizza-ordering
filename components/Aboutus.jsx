@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Aboutus = () => {
     return (
-        <div className={styles.container} >
+        <div id="Aboutus" className={styles.container} >
             <h1 className={styles.title}>ABOUT US</h1>
             <p className={styles.desc}>
                 We are students of VJTI college and have made this Pizza ordering website as a part of our Final Year Project
